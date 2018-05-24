@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{int x;
+clrscr();
+printf("enter number");
+scanf("%d",&x);
+if(x>0)
+printf("positive number");
+else if(x==0)
+printf("zero");
+else
+printf("negative number");
+getch();
+}
